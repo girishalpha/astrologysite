@@ -349,12 +349,25 @@ input:focus, textarea:focus, select:focus, button:focus {
     width: 100%;
 	position: relative;
 }
+
 .ast_menu ul {
+    text-align: center;
     float: right;
     width: auto;
 	margin:0;
 	padding:0;
 }
+
+@media all and (max-width: 992px) {
+    .ast_menu ul {
+        text-align: left;
+        float: right;
+        width: auto;
+        margin:0;
+        padding:0;
+    }
+}
+
 .ast_menu ul li {
 	list-style:none;
 	float:left;
@@ -1259,7 +1272,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	left:0%;
 	right:0%;
 	bottom:0%;
-	background-color:rgba(0, 0, 0, 0.5);
+	background: url("/images/content/Cover.jpg");
 }
 .ast_timer_wrapper .ast_heading h1, .ast_timer_wrapper .ast_heading p{
     color:#ffffff;
@@ -1852,8 +1865,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .ast_download_wrapper{
     float: left;
     width: 100%;
-    background-color: #f4f4f4;
-    margin-bottom: 678px;
+    margin-bottom: 300px;
 }
 .ast_download_box{
 	float:left;
@@ -1889,7 +1901,6 @@ input:focus, textarea:focus, select:focus, button:focus {
 	float:left;
 	width:100%;
 	text-align:center;
-    margin-bottom: 50px;
 }
 .ast_footer_info img{
 	display:inline-block;
