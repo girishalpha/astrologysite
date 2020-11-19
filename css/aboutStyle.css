@@ -1,0 +1,7 @@
+@media (max-width: 992px) {
+    .ast_header_bottom {
+        position: relative;
+        margin-top: 10px;
+        background-color: black;
+    }
+}
