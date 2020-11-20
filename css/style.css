@@ -4007,8 +4007,16 @@ button:focus {
 }
 
 .ast_journal_box_wrapper {
-    float: left;
+    flex-direction: column;
     width: 100%;
+}
+
+.sub {
+    display: flex;
+}
+
+.sub>.ast_btn {
+    margin: auto;
 }
 
 .ast_journal_box_wrapper form {
