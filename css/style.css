@@ -474,6 +474,7 @@ button:focus {
 }
 
 .ast_menu ul li a:after {
+    height: 120px;
     content           : "";
     position          : absolute;
     opacity           : 0;
@@ -492,6 +493,7 @@ button:focus {
 }
 
 .ast_menu ul li a:hover:after {
+    height: 120px;
     opacity           : 1;
     visibility        : visible;
     background-color  : #ff6f00;
@@ -503,6 +505,7 @@ button:focus {
 }
 
 .ast_menu ul li a.active {
+    height: 120px;
     background-color  : #ff6f00;
     -webkit-transition: all 0.5s;
     -moz-transition   : all 0.5s;
@@ -4205,6 +4208,7 @@ button:focus {
 
     .ast_menu ul li a:hover,
     .ast_menu ul li a.active {
+        height: 120px;
         background-color: #ff6f00;
         color           : #ffffff;
         border-top      : 0px;
