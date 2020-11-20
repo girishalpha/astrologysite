@@ -474,7 +474,7 @@ button:focus {
 }
 
 .ast_menu ul li a:after {
-    height: 120px;
+    height            : 120px;
     content           : "";
     position          : absolute;
     opacity           : 0;
@@ -493,7 +493,7 @@ button:focus {
 }
 
 .ast_menu ul li a:hover:after {
-    height: 120px;
+    height            : 120px;
     opacity           : 1;
     visibility        : visible;
     background-color  : #ff6f00;
@@ -505,7 +505,7 @@ button:focus {
 }
 
 .ast_menu ul li a.active {
-    height: 120px;
+    height            : 120px;
     background-color  : #ff6f00;
     -webkit-transition: all 0.5s;
     -moz-transition   : all 0.5s;
@@ -662,8 +662,7 @@ button:focus {
     background-attachment: fixed;
 }
 
-.ast_slider_wrapper.style_2 {
-}
+.ast_slider_wrapper.style_2 {}
 
 .ast_slider_wrapper .ast_img_overlay {
     z-index: -1;
@@ -773,7 +772,7 @@ button:focus {
 }
 
 .starfield>*:nth-child(2) {
-    -webkit-animation-duration: 22s;
+    -webkit-animation-duration: 27s;
 }
 
 .starfield>*:nth-child(3) {
@@ -781,11 +780,27 @@ button:focus {
 }
 
 .starfield>*:nth-child(4) {
-    -webkit-animation-duration: 40s;
+    -webkit-animation-duration: 45s;
 }
 
 .starfield>*:nth-child(5) {
-    -webkit-animation-duration: 512s;
+    -webkit-animation-duration: 54s;
+}
+
+.starfield>*:nth-child(6) {
+    -webkit-animation-duration: 54s;
+}
+
+.starfield>*:nth-child(7) {
+    -webkit-animation-duration: 54s;
+}
+
+.starfield>*:nth-child(8) {
+    -webkit-animation-duration: 54s;
+}
+
+.starfield>*:nth-child(9) {
+    -webkit-animation-duration: 86400s;
 }
 
 @-webkit-keyframes starfieldRotate {
@@ -4008,7 +4023,7 @@ button:focus {
 
 .ast_journal_box_wrapper {
     flex-direction: column;
-    width: 100%;
+    width         : 100%;
 }
 
 .sub {
@@ -4059,6 +4074,68 @@ button:focus {
     margin-bottom: 25px;
     border-radius: 3px;
     padding      : 0px 10px;
+}
+
+.ast_journal_box_wrapper form .combo input {
+    width                     : 60%;
+    border-right              : none;
+    border-bottom-right-radius: 0;
+    border-top-right-radius   : 0;
+}
+
+.ast_journal_box_wrapper form .combo select {
+    width                    : 40%;
+    border-left              : none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius   : 0;
+    background-color         : whitesmoke;
+}
+
+@media (max-width: 992px) {
+    .ast_journal_box_wrapper form .combo input {
+        width: 53%;
+    }
+
+    .ast_journal_box_wrapper form .combo select {
+        width: 47%;
+    }
+}
+
+#radio1 input,
+#radio2 input {
+    width   : 10%;
+    height  : 20px;
+    margin  : auto;
+    position: relative;
+}
+
+#radio1 label,
+#radio2 label {
+    margin: auto;
+}
+
+#radio1,
+#radio2 {
+    display       : flex;
+    flex-direction: row;
+}
+
+@media (max-width: 992px) {
+
+    #radio1,
+    #radio2 {
+        margin: 5px;
+    }
+}
+
+figure {
+    text-align   : center;
+    margin-bottom: 20px;
+}
+
+
+#r1-r2-combo {
+    margin-bottom: 20px;
 }
 
 .ast_journal_box_wrapper form textarea {
@@ -4216,7 +4293,7 @@ button:focus {
 
     .ast_menu ul li a:hover,
     .ast_menu ul li a.active {
-        height: 120px;
+        height          : 120px;
         background-color: #ff6f00;
         color           : #ffffff;
         border-top      : 0px;
