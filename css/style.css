@@ -410,13 +410,13 @@ button:focus {
 .ast_header_bottom.style_2 {
   background-color: rgba(0, 0, 0, 0);
   margin-top: 21px;
-  padding: 0px 50px;
+  padding: 0px 0px;
 }
 
 .ast_logo {
   float: left;
   width: 100%;
-  padding: 16px 0px;
+  padding: 0px 0px;
 }
 
 .ast_menu {
@@ -6274,4 +6274,8 @@ li.ast_cart {
     left: 25%;
     height: 0;
   }
+}
+
+.propertyM input {
+  text-align: center;
 }
