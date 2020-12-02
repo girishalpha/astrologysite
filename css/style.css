@@ -6252,3 +6252,8 @@ li.ast_cart {
 .ATOSPS>#radio2>input[type="checkbox"] {
   margin: 20px;
 }
+
+.photoDetails div figure {
+  margin: auto;
+  height: 400px;
+}

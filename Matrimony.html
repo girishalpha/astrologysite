@@ -23,6 +23,8 @@ Purchase: http://themeforest.net/user/kamleshyadav
 	<meta name="MobileOptimized" content="320">
 	<!-- script for right RightClick disable  -->
 	<script src="js/RightClick.js"></script>
+	<!-- script for Uploading Photos -->
+	<script src="js/photoUpload.js"></script>
 	<!--Srart Style -->
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -153,21 +155,37 @@ Purchase: http://themeforest.net/user/kamleshyadav
 					<div class="ast_journal_box_wrapper">
 						<form>
 							<h3>Free Registration</h3>
-							<h3>Required Details</h3>
+							<h4 style="text-align: center;">Required Details</h4>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photoDetails">
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+									<figure><img onclick="uploadPhoto()" src="images/content/person-image.jpg" alt="">
+										<figcaption><b>Passport</b></figcaption>
+										<input style="display: none;" type="file" name="" id="">
+									</figure>
+									<!-- <input type="file" name="" id=""> -->
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+									<figure><img onclick="uploadPhoto()" src="images/content/person-image.jpg" alt="">
+										<figcaption><b>FullSize</b></figcaption>
+										<input style="display: none;" type="file" name="" id="">
+									</figure>
+									<!-- <input type="file" name="" id=""> -->
+								</div>
+							</div>
 							<div class="form-check col-lg-6 col-md-6 col-sm-6 col-xs-12" id="radio1">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                                    value="option1" checked>
-                                <label class="form-check-label" for="exampleRadios1">
-                                    BRIDE
-                                </label>
-                            </div>
-                            <div class="form-check col-lg-6 col-md-6 col-sm-6 col-xs-12" id="radio2">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                                    value="option2">
-                                <label class="form-check-label" for="exampleRadios2">
-                                    BRIDE GROOM
-                                </label>
-                            </div>
+								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+									value="option1" checked>
+								<label class="form-check-label" for="exampleRadios1">
+									BRIDE
+								</label>
+							</div>
+							<div class="form-check col-lg-6 col-md-6 col-sm-6 col-xs-12" id="radio2">
+								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+									value="option2">
+								<label class="form-check-label" for="exampleRadios2">
+									BRIDE GROOM
+								</label>
+							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
 								<label>Name</label>
 								<input type="text" placeholder="Name">
