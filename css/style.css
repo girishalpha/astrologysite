@@ -6257,3 +6257,12 @@ li.ast_cart {
   margin: auto;
   height: 400px;
 }
+
+.table table tr th {
+  text-align: center;
+}
+
+.table table tr td input{
+  margin: 0;
+  text-align: center;
+}
