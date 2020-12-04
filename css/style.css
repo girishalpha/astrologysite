@@ -6258,6 +6258,12 @@ li.ast_cart {
   height: 400px;
 }
 
+@media (min-width:992px) {
+  .photoDetails{
+    margin-bottom: 100px;
+  }
+}
+
 .table table tr th {
   text-align: center;
 }
@@ -6265,4 +6271,17 @@ li.ast_cart {
 .table table tr td input{
   margin: 0;
   text-align: center;
+}
+
+.chargesTab table tr, .chargesTab table tr th, .chargesTab table tr td{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.chargesTab table tr td {
+  height: 100px;
+}
+
+.radioSize {
+  width: 100px;
 }
