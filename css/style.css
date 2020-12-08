@@ -6284,3 +6284,34 @@ li.ast_cart {
 .radioSize {
   width: 100px;
 }
+
+/* swiper slider start */
+
+.swiper-container{
+  width: 350px;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-container{
+  height: 400px
+}
+.swiper-wrapper{
+  align-items: center;
+}
+.swiper-slide{
+  width: 400px;
+  height: 350px;
+  border-radius: 7px;
+}
+.swiper-slide img{
+  width: 350px;
+  height: 300px;
+  border-radius: 7px;
+}
+.swiper-slide-active{
+  transform: scale(1.2);
+  transition: .4s ;
+}
