@@ -178,7 +178,13 @@ button:focus {
 }
 
 .ast_bottompadder70 {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
+}
+
+@media (max-width:992px) {
+  .ast_bottompadder70 {
+    padding-bottom: 0px;
+  }
 }
 
 .ast_bottompadder80 {
@@ -2190,7 +2196,7 @@ button:focus {
 .ast_download_wrapper {
   float        : left;
   width        : 100%;
-  margin-bottom: 300px;
+  margin-bottom: 250px;
 }
 
 .ast_download_box {
@@ -6288,27 +6294,26 @@ li.ast_cart {
 /* swiper slider start */
 
 .swiper-container{
-  width: 350px;
-  height: 100vh;
-  margin: 0 auto;
+  width: 100%;
+  margin:  auto;
   position: relative;
-  overflow: hidden;
 }
 
 .swiper-container{
-  height: 400px
+  height: 500px
 }
 .swiper-wrapper{
   align-items: center;
 }
 .swiper-slide{
-  width: 400px;
-  height: 350px;
+  display: flex;
+  height: 500px;
   border-radius: 7px;
 }
 .swiper-slide img{
-  width: 350px;
-  height: 300px;
+  margin:  auto;
+  width: 500px;
+  height: 500px;
   border-radius: 7px;
 }
 .swiper-slide-active{
