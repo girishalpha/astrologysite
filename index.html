@@ -186,19 +186,37 @@
 				<!-- Initialize Swiper -->
 				<script>
 					var swiper = new Swiper('.swiper-container', {
-						slidesPerView: 'auto',
-						centeredSlides: true,
 						spaceBetween: 30,
-						autoplay: {
-							delay: 5000,
-						},
+						effect: 'fade',
 						pagination: {
 							el: '.swiper-pagination',
 							clickable: true,
 						},
+						autoplay: {
+					 		delay: 5000,
+					 	},
+						navigation: {
+							nextEl: '.swiper-button-next',
+							prevEl: '.swiper-button-prev',
+						},
 						loop: true,
-						stopOnLastSlide: false,
+					 	stopOnLastSlide: false,
 					});
+					// var swiper = new Swiper('.swiper-container', {
+					// 	slidesPerView: 'auto',
+					// 	centeredSlides: true,
+					// 	spaceBetween: 30,
+					// 	autoplay: {
+					// 		delay: 5000,
+					// 	},
+					// 	pagination: {
+					// 		el: '.swiper-pagination',
+					// 		clickable: true,
+					// 	},
+					// 	loop: true,
+					// 	stopOnLastSlide: false,
+
+					// });
 				</script>
 			</div>
 		</div>
