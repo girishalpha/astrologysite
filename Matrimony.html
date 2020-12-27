@@ -189,7 +189,7 @@
 										<figcaption><b>Passport</b></figcaption>
 										<input style="display: none;" type="file" name="" id="">
 									</figure>
-									<input type="file" name="" id="">
+									<!-- <input type="file" name="" id=""> -->
 								</div>
 								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 									<figure><img onclick="uploadPhoto()" src="images/content/person-image.jpg" alt="">
@@ -218,12 +218,18 @@
 								<input type="text" placeholder="Name">
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-								<label>DOB</label>
-								<input type="text" placeholder="Date of Birth">
+								<label>gender</label>
+								<select>
+									<option value="male">Male</option>
+									<option value="female">Female</option>
+									<option value="other">Other</option>
+								</select>
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-								<label>TOB</label>
-								<input type="text" placeholder="Time of Birth">
+								<label>Date of Birth</label>
+								<input type="datetime-local" id="meeting-time"
+								name="meeting-time" value="1999-09-22T19:30"
+								min="1900-06-07T00:00" max="2030-06-14T00:00">
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
 								<label>POB</label>
@@ -307,7 +313,7 @@
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
 								<label>Property Details</label>
-								<input type="text" placeholder="Qualification">
+								<input type="text" placeholder="Property Details">
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
 								<label>Requirements(like age gap)</label>
